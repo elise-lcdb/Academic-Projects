@@ -1,0 +1,191 @@
+#page{
+	margin: 0;
+	padding: 0;
+}
+
+/*header part*/
+#myCarousel{
+	position: relative;
+	width:100%;
+	height:auto;
+	margin: auto;
+	bottom: 10px;
+}
+
+.carousel-caption{
+	font-family: 'Josefin Slab', serif;
+	text-decoration: none;
+	color: white;
+}
+.carousel-caption h3{
+	font-size: 54px;
+	font-weight: bolder;
+	color: white;
+}
+.carousel-caption p{
+	font-size: 36px;
+	text-align: center;
+	color: white;
+	
+}
+/*fin header part*/
+
+
+/*nav part*/
+ #page nav{
+	height: 50px;
+	background: white;
+	border: black double 3px;
+	position: fixed;
+	z-index: 1;
+}
+
+#page nav li img{
+	width:45px;
+	height: auto;
+	margin: 0 0 10px 0;
+}
+
+#page nav ul{
+	margin: 0;
+	padding: 0;
+}
+#page nav ul.dropdown-menu{
+	width:10%;
+	height:auto;
+}
+
+#page nav ul li{
+	list-style-type: none;
+	text-decoration: none;
+	text-align: center;
+	float: left;
+	font-size: 18px;
+	line-height: 50px;
+	margin-right: 3.1px;
+	letter-spacing: 0.5px;
+	text-decoration: none;
+	color: black;
+	font-family: 'Josefin Slab', serif;
+}
+
+#page nav ul li a{
+	display: block;
+	text-decoration: none;
+	color: black;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	/*text-transform: uppercase;*/
+	font-size: 18px;
+	margin-right: 3.1px;
+	letter-spacing: 0.5px;
+}
+
+
+
+/*fin de nav part*/
+
+
+/*section part*/
+#page section{
+	float: left;
+	/*width: 750px;*/
+	height: auto;
+	/*background: #ECBD01;*/
+}
+
+#page section article{
+	margin: 0;
+	padding: 0;
+}
+
+#page section article h3{
+	margin: 15px auto 5px 15px;
+	font-family: 'Josefin Slab', serif;
+	font-weight: bold;
+}
+
+#page section article p{
+	/*position: absolute;*/
+	margin: 15px 5px 0 25px;
+	font-family: 'Josefin Slab', serif;
+	font-size: 20px;
+
+}
+#page section article h5{
+	text-align: center;
+	border: solid #bdc3c7 1px;
+	font-family: 'Josefin Slab', serif;
+	display: block;
+	float: right;
+	margin: 10px 25px 0 0;
+}
+
+#page section article img{
+	position: relative;
+	float: left;
+	width: 40%;
+	height: auto;
+	margin: 25px 25px;
+	
+}
+
+/*aside part*/
+#page aside{
+	float: right;
+/*	width: auto;*/
+	height: 750px;
+	/*background: #F36937;*/
+}
+#page aside h2{
+	font-family: 'Josefin Slab', serif;
+	text-align: center;
+	font-size: 24px;
+}
+
+#page aside #map img{
+	width:100%;
+	height: auto;
+}
+#page aside #rs{
+	
+}
+#page aside #rs img{
+	width:15%;
+	height: auto;
+}
+#page aside #about img{
+	width: 100%;
+	height: auto;
+}
+#page aside #about p{
+	margin: 5px 0 0 0;
+	font-family: 'Josefin Slab', serif;
+	font-size: 15px;
+}
+
+
+/*fin de aside part*/
+
+/*footer part*/
+#page footer{
+	height: auto;
+	/*float: bottom;*/
+	font-family: 'Josefin Slab', serif;	
+}
+
+/*spécial part*/
+#page footer ul{
+	text-decoration: none;
+	list-style-type: none;
+
+}
+
+#page footer ul li{
+	margin: 0 15px 0 0;
+}
+#page footer p{
+	text-align: justify;
+	margin: 25px;
+}

@@ -1,0 +1,232 @@
+
+#page{
+	/*background: #40A497;*/
+	margin: 0;
+	padding: 0;
+}
+
+
+/*nav part*/
+ #page nav{
+	height: 50px;
+	background: white;
+	border: black double 3px;
+	position: fixed;
+	z-index: 1;
+}
+
+#page nav li img{
+	width:45px;
+	height: auto;
+	margin: 0 0 10px 0;
+}
+
+#page nav ul{
+	margin: 0;
+	padding: 0;
+}
+#page nav ul.dropdown-menu{
+	width:10%;
+	height:auto;
+}
+
+#page nav ul li{
+	list-style-type: none;
+	text-align: center;
+	float: left;
+	font-size: 18px;
+	line-height: 50px;
+	margin-right: 3.1px;
+	letter-spacing: 0.5px;
+	text-decoration: none;
+	color: black;
+	font-family: 'Josefin Slab', serif;
+}
+
+#page nav ul li a{
+	display: block;
+	text-decoration: none;
+	color: black;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	/*text-transform: uppercase;*/
+	font-size: 18px;
+	margin-right: 3.1px;
+	letter-spacing: 0.5px;
+}
+
+
+
+/*fin de nav part*/
+
+/*header part*/
+#page header img{
+	width:100%;
+	height: auto;
+
+}
+#page header h1{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Josefin Slab', serif;
+    font-size: 54px;
+    font-weight: bolder;
+}
+
+
+/*fin header part*/
+
+/*Bloc Part*/
+#page #bloc{
+	background: #81E6D9;
+	height: 50px;
+	margin: -50px 0 0 0;
+
+}
+
+#page #bloc ul{
+	margin: 0 0 0 -50px;
+/*	padding: 5px;*/
+}
+#page #bloc ul li{
+	list-style-type: none;
+/*	text-align: center;*/
+	float: left;
+	font-size: 18px;
+	line-height: 50px;
+	/*margin-right: 3.1px;*/
+	letter-spacing: 0.5px;
+	text-decoration: none;
+	color: black;
+	font-family: 'Josefin Slab', serif;
+}
+#page #bloc ul li a{
+	display: block;
+	text-decoration: none;
+	color: black;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	/*text-transform: uppercase;*/
+	font-size: 18px;
+	margin-right: 3.1px;
+	letter-spacing: 0.5px;
+}
+/*End of Bloc Part*/
+
+
+/*section part*/
+#page section{
+	float: left;
+	/*width: 750px;*/
+	height: auto;
+	/*background: #ECBD01;*/
+}
+
+#page section article{
+	margin: 0;
+	padding: 0 0 0 25px;
+	font-family: 'Josefin Slab', serif;
+	font-size: 16px;
+	color: #C72800;
+}
+
+#page section article img{
+	position: relative;
+	float: left;
+	width: 300px;
+	height: 180px;
+	margin: 5px 10px 0px 0px;
+	border-radius: 5px;
+}
+
+#page section article h5{
+	margin: 15px auto 5px 15px;
+	text-decoration: underline;
+	color: #8C1F67;
+	font-family: 'Josefin Slab', serif;
+	font-size: 18px;
+}
+
+#page section article p{
+	/*position: absolute;*/
+	color: #C72800;
+	margin: 15px 5px 0 25px;
+	/*text-indent: 25px;*/
+	text-align: justify;
+	font-family: 'Josefin Slab', serif;
+	font-size: 16px;
+}
+
+#page section article #imag{
+	width: auto;
+	height: auto;
+}
+/*en section part*/
+
+/*aside part*/
+#page aside{
+	float: right;
+	/*width: auto;*/
+	height: 750px;
+	/*background: #F36937;*/
+}
+
+#page aside ul li{
+	text-align: justify;
+	color: #fff;
+	font-family: 'Josefin Slab', serif;
+}
+#page aside #rs h2{
+	font-family: 'Josefin Slab', serif;
+	text-align: center;
+	font-size: 24px;
+
+}
+#page aside #rs img{
+	width:15%;
+	height: auto;
+}
+/*fin de aside part*/
+
+/*footer part*/
+footer{
+	/*position: relative;*/
+	height: auto;
+	/*float: bottom;*/
+	background: #81E6D9;
+	margin: 0;
+	padding: 0;
+}
+
+
+#page footer{
+	height: auto;
+	/*float: bottom;*/
+	font-family: 'Josefin Slab', serif;	
+}
+
+/*spécial part*/
+#page footer ul{
+	text-decoration: none;
+	list-style-type: none;
+
+
+}
+
+#page footer ul li{
+	margin: 0 15px 0 0;
+
+}
+#page footer p{
+	text-align: justify;
+	margin: 25px;
+}
+
+#separe{
+	height: 25px;
+}

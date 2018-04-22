@@ -1,0 +1,26 @@
+body{
+	background: #2f3640;
+}
+nav{
+	background: #202020;
+}
+#posting{
+	background: #d2dae2;
+	margin: 0 auto;
+}
+#posting h6{
+	font-weight: bold;
+}
+
+#theposts{
+	background: #d2dae2;
+}
+#theposts img{
+ 	height: 200px;
+	width: auto;
+}
+#theposts input{
+	float: right;
+	
+}
+

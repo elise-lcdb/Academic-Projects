@@ -1,0 +1,22 @@
+html{
+    background: black;
+}
+body{
+    background-image: url(grid.jpg);
+    background-repeat: none;
+    background-position: center center;
+    height: 650px;
+
+}
+header h1{
+    font-family: 'Cute Font', cursive;
+    color: hotpink;
+    display: inline-block;
+    font-size: 94px;
+}
+#board input{
+    width: auto;
+    height: 160px;
+    border: 5px solid hotpink;
+}
+

@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0"/>
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- 	<link rel="stylesheet" type="text/css" href="js/javascript.js"> -->
+</head>
+<body>
+	<header>
+		<center><h1>APPLICATION</h1></center>
+	</header>
+	<aside>
+		<section>
+		<center><h3>LISTES DE BOUTONS</h3></center>
+		</section>
+		<article>
+		<p>Boucles</p>
+	<button type="button" name="button" id="btn_while">
+		While (tant que)
+	</button>
+	<button type="button" name="button" id="btn_for">
+		For (pour x = y, conditions)
+	</button>
+
+	<p>Conditions :</p>
+	<button type="button" name="button" id="btn_if">
+		If (si)
+	</button>
+	<button type="button" name="button" id="btn_else">
+		Else (sinon)
+	</button>
+	<button type="button" name="button" id="btn_elif">
+		Else If (sinon si)
+	</button>
+
+	<button type="button" name="button" id="ok">
+		Ok
+	</button>
+	
+	<div id="complete">
+		
+	</div>
+	<br>
+<!-- 	<div id="my_text">
+		<textarea id="my_text" cols="50" rows="25"></textarea>
+	</div> -->
+
+			<button onclick="myFunction()">Operateurs</button>
+	<div id="sub">
+		<ul>
+
+			<li><button type="button" name ="button" id="addition">
+				+
+			</button></li>
+
+			<!-- <div id = "textadd"></div> -->
+			<li><button type="button" name="button" id="soustraction">
+				-
+			</button></li>
+			<!-- <div id= "textsous"></div> -->
+			<li><button type="button" name="button" id="egal">
+				=
+			</button></li>
+			<!-- <div id="textegal"></div> -->
+			<li><button type = "button" name="button" id="division">
+				/
+			</button></li>
+			<!-- <div id="textdiv"></div> -->
+			<li><button type = "button" name = "button" id ="multiplication">
+				*
+			</button></li>
+			<!-- <div id="textmult"></div> -->
+			<li><button type = "button" name = "button" id ="modulo">
+				%
+			</button></li>
+			<!-- <div id="textmod"></div> -->
+			<li><button type = "button" name = "button" id ="inferieur">
+				<
+			</button></li>
+			<!-- <div id="textinf"></div> -->
+			<li><button type = "button" name = "button" id ="superieur">
+				>
+			</button></li>
+			<!-- <div id="textsup"></div> -->
+			<li><button type = "button" name = "button" id ="inferieurouegal">
+				<=
+			</button></li>
+			<!-- <div id="textinfoueg"></div> -->
+			<li><button type = "button" name = "button" id ="superieurouegal">
+				>=
+			</button></li>
+			<!-- <div id="textsupoueg"></div> -->
+		</ul>
+	</div>
+
+
+			<p>Numbers</p>
+		
+		<input type="number" name="nmbvalue" id="nmbvalue" placeholder="Enter Number">
+		<input type="submit" value="OK" onclick="showInput()">
+
+			<p>Texte :</p>
+			<input type="text" id="search" name="search" list="url_list"/>
+	 		<input type="submit" value="ok" onclick="nomme()" />
+	 		<p>Variables :</p>
+	 		<input type="text" id="vari" name="vari" list="url_list"/>
+	 		<input type="submit" value="ok" onclick="direok()" />
+
+		<p>Commentaires</p>
+		<!-- <div id ="textcoms"></div> -->
+		<input type="text" id="coms" name="comms">
+		<input type="submit" name="submit" value="Ok" id="Okay">
+		<!-- <div id="textOk"></div> -->
+
+		<button type="button" name="finish" id="line">Finir la ligne</button>
+		</article>
+
+
+	</aside>
+
+	<section id="text">
+	<center>	<h2>Contenue</h2> </center>
+
+		<!-- <div id="text"></div>
+		<div id="variab"></div>
+		
+		
+		<div id="num"></div> -->
+	</section>
+</body>
+
+<script type="text/javascript">
+
+		function fun_if(){
+			txt.innerHTML += "if(";
+			pass = 1;
+			nb_if += 1;
+			manque.innerHTML = "Mettre une condition";
+			//desactiver les boutons if else et elif
+			btnif.disabled = true;
+			btnelse.disabled = true;
+			btnelif.disabled = true;
+			btnwhile.disabled = true;
+			btnfor.disabled = true;
+		}
+
+		function fun_else(){
+			if (nb_if > 0) {
+				txt.innerHTML += "else{<br>";
+				pass = 3;
+				nb_if -= 1;
+				nb_acc += 1;
+				manque.innerHTML = "Mettre des instructions";
+				btnif.disabled = false;
+				btnelse.disabled = false;
+				btnelif.disabled = true;
+				btnwhile.disabled = false;
+				btnfor.disabled = false;
+			}
+			else{
+				manque.innerHTML = "il faut un if !!!";
+			}
+		}
+
+		function fun_elif(){
+			if (nb_if > 0) {
+				txt.innerHTML += "else if(";
+				pass = 1;
+				manque.innerHTML = "Mettre une condition";
+				btnif.disabled = true;
+				btnelse.disabled = true;
+				btnelif.disabled = true;
+				btnwhile.disabled = true;
+				btnfor.disabled = true;
+			}
+			else{
+				manque.innerHTML = "il faut un if !!!!"
+			}
+		}
+
+		function fun_while(){
+			txt.innerHTML += "while(";
+			pass = 1;
+			manque.innerHTML = "Mettre une condition";
+			btnif.disabled = true;
+			btnelse.disabled = true;
+			btnelif.disabled = true;
+			btnwhile.disabled = true;
+			btnfor.disabled = true;
+		}
+
+		function fun_for(){
+			txt.innerHTML += "for(";
+			pass = 2;
+			manque.innerHTML = "Mettre une condition";
+			btnif.disabled = true;
+			btnelse.disabled = true;
+			btnelif.disabled = true;
+			btnwhile.disabled = true;
+			btnfor.disabled = true;
+		}
+
+		function fun_ok(){
+			if (pass == 1) {
+				txt.innerHTML += "){<br>";
+				pass = 3;
+				nb_acc += 1;
+				manque.innerHTML = "Mettre des instructions et pensez à refermer l'accolade";
+				//activer les boutons if else elif
+				btnif.disabled = false;
+				btnelse.disabled = true;
+				btnelif.disabled = true;
+				btnwhile.disabled = false;
+				btnfor.disabled = false;
+			}
+			else if (pass == 2) {
+				txt.innerHTML += "; ";
+				pass = 1;
+				btnif.disabled = true;
+				btnelse.disabled = true;
+				btnelif.disabled = true;
+				btnwhile.disabled = true;
+				btnfor.disabled = true;
+			}
+			else if (nb_acc >= 0){
+				txt.innerHTML += "}<br>";
+				//pass = 0;
+				nb_acc -= 1;
+				manque.innerHTML = "Pensez à fermer toutes les accolades !!";
+				btnif.disabled = false;
+				btnelse.disabled = false;
+				btnelif.disabled = false;
+				btnwhile.disabled = false;
+				btnfor.disabled = false;
+			}
+			else{
+				manque.innerHTML = "toutes les accolades sont fermées"
+			}
+		}
+
+		function myFunction() {
+		    var x = document.getElementById("sub");
+		    if (x.style.display === "none") {
+		        x.style.display = "block";
+		    }
+		    else {
+		        x.style.display = "none";
+		    }
+		}
+
+		function addition() {
+			txt.innerHTML += "+";
+			
+		}
+
+		function soustraction() {
+			txt.innerHTML += "-";
+			
+		}
+
+		function egal() {
+			txt.innerHTML += "=";
+			
+		}
+
+		function division() {
+			txt.innerHTML += "/";
+			
+		}
+
+		function multiplication() {
+			txt.innerHTML += "*";
+			
+		}
+
+			function modulo() {
+			txt.innerHTML += "%";
+			
+		}
+
+		function inferieur() {
+			txt.innerHTML += "<";
+			
+		}
+
+		function superieur() {
+			txt.innerHTML += ">";
+			
+		}
+
+		function inferieurouegal() {
+			txt.innerHTML += "<=";
+			
+		}
+
+		function superieurouegal() {
+			txt.innerHTML += ">=";
+			
+		}
+
+		function Ok() {
+			txt.innerHTML += "/*" + coms.value + "*/<br>";
+		}
+
+
+		function showInput(){
+			txt.innerHTML += nb.value;
+		}
+
+		function nomme(){
+				txt.innerHTML += srch.value  
+		}
+
+		function direok(){
+				txt.innerHTML += vari.value + "= ";  
+		}
+
+		function fun_finish(){
+			txt.innerHTML += ";<br>";
+		}
+
+		var vari = document.querySelector("#vari");
+		var srch = document.querySelector("#search");
+		var nb = document.querySelector("#nmbvalue");
+		var coms = document.querySelector("#coms");
+		var txt = document.querySelector("#text");
+		var manque = document.querySelector("#complete");
+
+		var btnif = document.querySelector("#btn_if");
+		var btnelse = document.querySelector("#btn_else");
+		var btnelif = document.querySelector("#btn_elif");
+		var btnwhile = document.querySelector("#btn_while");
+		var btnfor = document.querySelector("#btn_for");
+		var btn_pass = document.querySelector("#ok");
+		var btn_fini = document.querySelector("#line");
+
+
+		var btn_ok = document.querySelector ("#Okay");
+		//var btn_com = document.querySelector ("#commentaires");
+		var btn_supeg = document.querySelector ("#superieurouegal");
+		var btn_infeg = document.querySelector ("#inferieurouegal");
+		var btn_sup = document.querySelector ("#superieur");
+		var btn_add = document.querySelector ("#addition");
+		var btn_sou = document.querySelector ("#soustraction");
+		var btn_eg = document.querySelector ("#egal");
+		var btn_div = document.querySelector ("#division");
+		var btn_multi = document.querySelector ("#multiplication");
+		var btn_modu = document.querySelector ("#modulo");
+		var btn_inf = document.querySelector ("#inferieur");
+		
+		// var txt = document.querySelector("#textOk");
+		// var txt = document.querySelector("#my_text");
+		//var txt = document.querySelector("#variab");
+		// var num = document.querySelector("#num");
+		// var txt = document.querySelector("#textcoms")
+		// var txt = document.querySelector("#textsupoueg")
+		// var txt = document.querySelector("#textinfoueg")
+		// var txt = document.querySelector("#textsup")
+		// var txt = document.querySelector("#textadd")
+		// var txt = document.querySelector("#textsous")
+		// var txt = document.querySelector("#textegal")
+		// var txt = document.querySelector("#textdiv")
+		// var txt = document.querySelector("#textmult")
+		// var txt = document.querySelector("#textmod")
+		// var txt = document.querySelector("#textinf")
+
+		var pass;
+		var nb_if = 0;
+		var nb_acc = -1;
+
+		btnif.addEventListener("click", fun_if);
+		btnelse.addEventListener("click", fun_else);
+		btnelif.addEventListener("click", fun_elif);
+		btn_pass.addEventListener("click", fun_ok);
+		btnwhile.addEventListener("click", fun_while);
+		btnfor.addEventListener("click", fun_for);
+		btn_fini.addEventListener("click", fun_finish);
+
+		// btn_com.addEventListener ("click",commentaires);
+		btn_supeg.addEventListener ("click",superieurouegal);
+		btn_infeg.addEventListener ("click",inferieurouegal);
+		btn_sup.addEventListener ("click",superieur);
+		btn_add.addEventListener ("click",addition);
+		btn_sou.addEventListener ("click",soustraction);
+		btn_eg.addEventListener ("click",egal);
+		btn_div.addEventListener ("click",division);
+		btn_multi.addEventListener ("click",multiplication);
+		btn_inf.addEventListener ("click",inferieur);
+		btn_modu.addEventListener ("click",modulo);
+		btn_ok.addEventListener ("click", Ok);
+		// btn.addEventListener("click", direok);
+
+		btnelse.disabled = true;
+		btnelif.disabled = true;
+</script>
+
+
+</html>

@@ -1,0 +1,250 @@
+#page{
+margin:0;
+padding: 0;
+
+	
+}
+/*nav part*/
+ nav{
+	height: 50px;
+	background: white;
+	border: black double 3px;
+	position: fixed !important;
+	z-index: 1;
+}
+
+nav li img{
+	width:45px;
+	height: auto;
+	margin: 0 0 10px 0;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+nav ul.dropdown-menu{
+	width:10%;
+	height:auto;
+}
+
+nav ul li{
+	list-style-type: none;
+	text-align: center;
+	float: left;
+	font-size: 18px;
+	line-height: 50px;
+	margin-right: 3.1px;
+	letter-spacing: 0.5px;
+	text-decoration: none;
+	color: black;
+	font-family: 'Josefin Slab', serif;
+}
+
+nav ul li a{
+	display: block;
+	text-decoration: none;
+	color: black;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	/*text-transform: uppercase;*/
+	font-size: 18px;
+	margin-right: 3.1px;
+	letter-spacing: 0.5px;
+}
+
+
+
+/*fin de nav part*/
+
+header img{
+	width:100%;
+	height: auto;
+
+}
+header h1{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Josefin Slab', serif;
+    font-size: 54px;
+    font-weight: bolder;
+}
+/*header{
+	height: 150px;
+	background-color: #fff;
+}*/
+h1{
+	color: red;
+	float: left;
+	margin: 30px 0 25px 537px; 
+	font-size: 50px;
+	font-family: 'Josefin Slab', serif;
+
+}
+/*li i{
+	width:45px;
+	height: auto;
+	margin: 0 0 10px 0;
+	float: left;
+}*/
+
+#img1{
+	width: 49%;
+	height: auto;
+	float: left;
+	margin: 66px 38px 25px;
+	border-radius: 37px;
+	/*border: 5px solid maroon;*/
+	box-shadow: 5px 5px 20px white;
+}
+#img2{
+	width: 49%;
+	height: auto;
+	float: left;
+	margin: 83px 56px 45px 33px;
+	border-radius: 37px;
+	box-shadow: 5px 5px 20px orange;
+}
+#img3{
+	width: 49%;
+	height: auto;
+	float: left;
+	margin: 83px 54px 40px 54px;
+	border-radius: 37px;
+	box-shadow: 5px 5px 20px #fff;
+}
+article h2{
+	color: maroon;
+	font-family: 'Josefin Slab', serif;
+}
+article p{
+	color: maroon;
+	font-family: 'Josefin Slab', serif;
+	font-size: 16px;
+}
+
+#img3:hover{
+	transform: scale(1.3) rotate(-15deg);
+	-moz-transform: scale(1.3) rotate(-15deg);
+	-webkit-transform: scale(1.3) rotate(-15deg);
+	-ms-transform: scale(1.3) rotate(-15deg);
+}
+#img2:hover{
+	transform: scale(1.3) rotate(-15deg);
+	-moz-transform: scale(1.3) rotate(-15deg);
+	-webkit-transform: scale(1.3) rotate(-15deg);
+	-ms-transform: scale(1.3) rotate(-15deg);
+}
+#img1:hover{
+	transform: scale(1.3) rotate(-15deg);
+	-moz-transform: scale(1.3) rotate(-15deg);
+	-webkit-transform: scale(1.3) rotate(-15deg);
+	-ms-transform: scale(1.3) rotate(-15deg);
+}
+#para1{
+	text-align: justify;
+	color: maroon;
+	font-family: 'Josefin Slab', serif;
+
+}
+#para2{
+	color: maroon;
+	margin: 142px -6px 0 51px;
+	text-align: justify;
+	font-family: 'Josefin Slab', serif;
+}
+#para3{
+	color: maroon;
+	margin: 0 2px 0 45px;
+	text-align: justify;
+	font-family: 'Josefin Slab', serif;
+}
+
+#googlemap{
+	/*background: orange;
+	padding: 1.000%;*/
+	z-index: 1;
+
+}
+
+#bloc{
+	background: orange;
+	height: 50px;
+	margin: -50px 0 0 0;
+}
+
+#bloc ul{
+	margin: 0 0 0 -50px;
+/*	padding: 5px;*/
+}
+#bloc ul li{
+	list-style-type: none;
+/*	text-align: center;*/
+	float: left;
+	font-size: 18px;
+	line-height: 50px;
+	/*margin-right: 3.1px;*/
+	letter-spacing: 0.5px;
+	text-decoration: none;
+	color: black;
+	font-family: 'Josefin Slab', serif;
+}
+#bloc ul li a{
+	display: block;
+	text-decoration: none;
+	color: black;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	/*text-transform: uppercase;*/
+	font-size: 18px;
+	margin-right: 3.1px;
+	letter-spacing: 0.5px;
+}
+/*.fa{
+	font-size: 55px;
+	color: #fff;
+	margin: -25px -50px 0 86px;
+}*/
+hr{
+	border: 5px groove orange;
+
+}
+
+aside #rs h2{
+	font-family: 'Josefin Slab', serif;
+	text-align: center;
+	font-size: 24px;
+
+}
+aside #rs img{
+	width:15%;
+	height: auto;
+}
+footer{
+	/*position: relative;*/
+	height: auto;
+	/*float: bottom;*/
+	background: orange;
+	margin: 0;
+	padding: 0;
+}
+footer ul{
+	text-decoration: none;
+	list-style-type: none;
+	font-family: 'Josefin Slab', serif;
+
+}
+
+footer ul li{
+	margin: 0 15px 0 0;
+}
+footer p{
+	text-align: justify;
+	margin: 25px;
+	font-family: 'Josefin Slab', serif;
+}
