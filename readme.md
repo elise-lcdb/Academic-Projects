@@ -13,17 +13,17 @@
 </ul>
 <h3>Java</h3>
 <ul>
-	<li><a href="#">Caesar Cipher: Encoding and Decoding - May 2018</a></li>
+	<li><a href="https://github.com/elise-lcdb/Academic-Projects/tree/master/Java/May%202018/Caesar%20Cipher%20Encoding%20and%20Decoding">Caesar Cipher: Encoding and Decoding - May 2018</a></li>
 </ul>
 <h3>C#</h3>
 <ul>
-	<li><a href="#">RPG Console Game - December 2018</a></li>
+	<li><a href="https://github.com/elise-lcdb/Academic-Projects/tree/master/C%23/December%202018/RPG%20Console%20Game">RPG Console Game - December 2018</a></li>
 </ul>
 <h3>Python</h3>
 <ul>
-	<li><a href="#">Basic Web Server - December 2018</a></li>
+	<li><a href="https://github.com/elise-lcdb/Academic-Projects/tree/master/Python/December%202018/Web%20Server">Basic Web Server - December 2018</a></li>
 </ul>
 <h3>Windows Powershell</h3>
 <ul>
-	<li><a href="#">User Management, SSH Management, Backup/Restore, System Management - November 2018</a></li>
+	<li><a href="https://github.com/elise-lcdb/Academic-Projects/tree/master/Windows%20Powershell/November%202018/User%20Management%2C%20SSH%20Management%2C%20BackupRestore%2C%20System%20Management">User Management, SSH Management, Backup/Restore, System Management - November 2018</a></li>
 </ul>
