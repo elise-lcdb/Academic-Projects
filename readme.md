@@ -13,13 +13,17 @@
 </ul>
 <h3>Java</h3>
 <ul>
-	<li>Caesar Cipher - Encoding and Decoding</li>
+	<li><a href="#">Caesar Cipher: Encoding and Decoding - May 2018</a></li>
 </ul>
 <h3>C#</h3>
 <ul>
-	<li><a href="#">RPG Console Game</a></li>
+	<li><a href="#">RPG Console Game - December 2018</a></li>
 </ul>
 <h3>Python</h3>
 <ul>
-	<li><a href="#">Basic Web Server</a></li>
+	<li><a href="#">Basic Web Server - December 2018</a></li>
+</ul>
+<h3>Windows Powershell</h3>
+<ul>
+	<li><a href="#">User Management, SSH Management, Backup/Restore, System Management - November 2018</a></li>
 </ul>
