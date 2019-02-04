@@ -1,0 +1,11 @@
+/Users/elise.d/Dropbox/Console_Game_Backup/Console_Backup/Console_Backup/bin/Debug/netcoreapp2.0/Console_Backup.deps.json
+/Users/elise.d/Dropbox/Console_Game_Backup/Console_Backup/Console_Backup/bin/Debug/netcoreapp2.0/Console_Backup.runtimeconfig.json
+/Users/elise.d/Dropbox/Console_Game_Backup/Console_Backup/Console_Backup/bin/Debug/netcoreapp2.0/Console_Backup.runtimeconfig.dev.json
+/Users/elise.d/Dropbox/Console_Game_Backup/Console_Backup/Console_Backup/bin/Debug/netcoreapp2.0/Console_Backup.dll
+/Users/elise.d/Dropbox/Console_Game_Backup/Console_Backup/Console_Backup/bin/Debug/netcoreapp2.0/Console_Backup.pdb
+/Users/elise.d/Dropbox/Console_Game_Backup/Console_Backup/Console_Backup/obj/Debug/netcoreapp2.0/Console_Backup.csprojAssemblyReference.cache
+/Users/elise.d/Dropbox/Console_Game_Backup/Console_Backup/Console_Backup/obj/Debug/netcoreapp2.0/Console_Backup.csproj.CoreCompileInputs.cache
+/Users/elise.d/Dropbox/Console_Game_Backup/Console_Backup/Console_Backup/obj/Debug/netcoreapp2.0/Console_Backup.AssemblyInfoInputs.cache
+/Users/elise.d/Dropbox/Console_Game_Backup/Console_Backup/Console_Backup/obj/Debug/netcoreapp2.0/Console_Backup.AssemblyInfo.cs
+/Users/elise.d/Dropbox/Console_Game_Backup/Console_Backup/Console_Backup/obj/Debug/netcoreapp2.0/Console_Backup.dll
+/Users/elise.d/Dropbox/Console_Game_Backup/Console_Backup/Console_Backup/obj/Debug/netcoreapp2.0/Console_Backup.pdb
